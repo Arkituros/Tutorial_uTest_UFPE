@@ -42,6 +42,8 @@ PROJETO_EXEMPLO/
 |   |-- calc.c
 |-- tests/
 |   |-- test_calc.c
-|-- Doc/
-|   |-- tutorial_explicado.c
-|-- Makefile
+Doc/
+|-- tutorial_explicado.pdf
+Makefile
+README.md
+
