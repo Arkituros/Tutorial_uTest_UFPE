@@ -1,0 +1,33 @@
+# ============================
+# Configuracao do compilador
+# ============================
+
+CC      := gcc
+CFLAGS  := -std=c99 -Wall
+INCLUDES:= -I./inc
+LDFLAGS := -lm
+
+# ============================
+# Arquivos do projeto
+# ============================
+
+SRC     := src/*.c
+TESTS   := tests/*.c
+TARGET  := test_calc
+
+# ============================
+# Regras
+# ============================
+
+all: build
+
+build:
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC) $(TESTS) $(INCLUDES) $(LDFLAGS)
+
+run: build
+	./$(TARGET)
+
+clean:
+	rm -f $(TARGET)
+
+.PHONY: all build run clean
