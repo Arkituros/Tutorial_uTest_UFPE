@@ -34,7 +34,7 @@ O projeto é indicado para **estudantes, iniciantes e desenvolvedores** que dese
 ## 📂 Estrutura do Projeto
 
 ```text
-PROJETO_AUTO_TEST/
+PROJETO_EXEMPLO/
 |-- inc/
 |   |-- calc.h
 |   |-- utest.h
@@ -42,4 +42,6 @@ PROJETO_AUTO_TEST/
 |   |-- calc.c
 |-- tests/
 |   |-- test_calc.c
+|-- Doc/
+|   |-- tutorial_explicado.c
 |-- Makefile
